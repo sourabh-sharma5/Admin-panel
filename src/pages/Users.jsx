@@ -56,7 +56,7 @@ const Users = () => {
           Users
         </Typography>
 
-        {/* Filter Section */}
+        
         <Grid container spacing={2} sx={{ mb: 3 }} alignItems="center">
           <Grid item xs={12} sm={6} md={4}>
             <TextField
@@ -104,7 +104,7 @@ const Users = () => {
           </Grid>
         </Grid>
 
-        {/* Table */}
+        
         <Paper sx={{ width: "100%", overflowX: "auto" }}>
           <Table>
             <TableHead>
@@ -162,7 +162,7 @@ const Users = () => {
           </Table>
         </Paper>
 
-        {/* Modals */}
+        
         <InviteModal open={inviteOpen} onClose={() => setInviteOpen(false)} />
         {editUser && (
           <UserModal

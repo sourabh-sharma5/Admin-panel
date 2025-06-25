@@ -16,9 +16,9 @@ function App() {
       <Header />
       <Sidebar />
 
-      {/* Main Content */}
+      
       <Box component="main" sx={{ flexGrow: 1, ml: { sm: "240px" }, p: 3 }}>
-        <Toolbar /> {/* Push content below the header */}
+        <Toolbar /> 
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/dashboard" element={<Dashboard />} />
